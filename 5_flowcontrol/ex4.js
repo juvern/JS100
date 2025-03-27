@@ -12,3 +12,10 @@ function barCodeScanner(serial) {
 }
 
 barCodeScanner('113');
+
+//What does the following code log to the console, and why?
+
+// --> Logs the following as there is no break statement so it falls through after matching 113
+// Product2
+// Product3
+// Product not found!
