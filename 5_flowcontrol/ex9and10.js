@@ -4,6 +4,10 @@
 
 || will skip the first operand if it's a falsy value. If not, it will return the first operand and short circuits.
 
+|| checks that at least one is truthy
+
+&& checks that both are truthy
+
 ?? will skip the first operand if its nullish (null or undefined). If not, it will return the first operand and short circuits.
 
 In summary || skips falsy values ?? skips nullish values.
